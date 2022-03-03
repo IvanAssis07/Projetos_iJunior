@@ -1,0 +1,503 @@
+{
+	"info": {
+		"_postman_id": "d4504058-2dc1-48d5-b9aa-0256d4019b49",
+		"name": "Requests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CREATE",
+			"item": [
+				{
+					"name": "inserirJogo",
+					"item": [
+						{
+							"name": "TheLastOfUs2",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"nome\": \"The Last of Us Part II\",\n    \"ano\": \"2020\",\n    \"preco\": \"120.0\",\n    \"genero\": \"Ação-Aventura\",\n    \"idUsuario\": \"1\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/inserirJogo",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"inserirJogo"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "TheWitcher3",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"nome\": \"The Witcher 3: Wild Hunt\",\n    \"ano\": \"2015\",\n    \"preco\": \"60.0\",\n    \"genero\": \"RPG\",\n    \"idUsuario\": \"2\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/inserirJogo",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"inserirJogo"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "FIFA22",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"nome\": \"FIFA 22\",\n    \"ano\": \"2021\",\n    \"preco\": \"200.0\",\n    \"genero\": \"Esporte\",\n    \"idUsuario\": \"3\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/inserirJogo",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"inserirJogo"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "TheEldersScrollsV",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"nome\": \"The Elder Scrolls V: Skyrim\",\n    \"ano\": \"2011\",\n    \"preco\": \"60.0\",\n    \"genero\": \"RPG\",\n    \"idUsuario\": \"4\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/inserirJogo",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"inserirJogo"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "JustDance2022",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"nome\": \"Just Dance 2022\",\n    \"ano\": \"2021\",\n    \"preco\": \"190.0\",\n    \"genero\": \"Música\",\n    \"idUsuario\": \"4\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/inserirJogo",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"inserirJogo"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DonkeyKong",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"nome\": \"Donkey Kong\",\n    \"ano\": \"1994\",\n    \"preco\": \"130\",\n    \"genero\": \"Plataforma\",\n    \"idUsuario\": \"5\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/inserirJogo",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"inserirJogo"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "inserirUsuario",
+					"item": [
+						{
+							"name": "LuisFelipe",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"nome\": \"Luis Felipe\",\n    \"email\": \"lframos_ferreira@outlook.com\",\n    \"senha\": \"12345\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/inserirUsuario",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"inserirUsuario"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Ivan",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"nome\": \"Ivan\",\n    \"email\": \"ivan@gmail.com\",\n    \"senha\": \"12543\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/inserirUsuario",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"inserirUsuario"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Gabi",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"nome\": \"Gabi\",\n    \"email\": \"gabi@email.com\",\n    \"senha\": \"54321\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/inserirUsuario",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"inserirUsuario"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Camacho",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"nome\": \"Camacho\",\n    \"email\": \"camacho@outlook.com\",\n    \"senha\": \"123456\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/inserirUsuario",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"inserirUsuario"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Gabi Copy",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"nome\": \"Mara\",\n    \"email\": \"mara@orkut.com\",\n    \"senha\": \"senha\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/inserirUsuario",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"inserirUsuario"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "DELETE",
+			"item": [
+				{
+					"name": "JogoID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/deletarJogo/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"deletarJogo",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UsuarioID_1",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/deletarUsuario/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"deletarUsuario",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "READ",
+			"item": [
+				{
+					"name": "jogoId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/checarJogo/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"checarJogo",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "usuarioID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/checarUsuario/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"checarUsuario",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "checarUsuarioJogos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/checarUsuarioJogos/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"checarUsuarioJogos",
+								"5"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "UPDATE",
+			"item": [
+				{
+					"name": "AlterarPrecoId",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": \"5\",\n    \"valor\": \"10\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/alterarPrecoJogo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"alterarPrecoJogo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AlterarSenhaMara",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": \"5\",\n    \"senha\": \"senhaMaisForte\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/alterarSenhaUsuario",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"alterarSenhaUsuario"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
