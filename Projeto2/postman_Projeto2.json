@@ -448,7 +448,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"id\": \"5\",\n    \"valor\": \"10\"\n}",
+							"raw": "{\n    \"id\": \"5\",\n    \"preco\": \"10\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
