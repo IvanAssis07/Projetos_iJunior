@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "d4504058-2dc1-48d5-b9aa-0256d4019b49",
+		"_postman_id": "f8fd1533-8f53-4358-9223-c80a8441038f",
 		"name": "Requests",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -43,10 +43,16 @@
 							"name": "TheWitcher3",
 							"request": {
 								"method": "POST",
-								"header": [],
+								"header": [
+									{
+										"key": "x-access-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjQ2OTMwMDE1LCJleHAiOjE2NDY5MzA2MTV9.5t6kF_GHqKI3u3Wl9Z7A8pyXZkS5QKMMciDauRqhwrw",
+										"type": "text"
+									}
+								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"nome\": \"The Witcher 3: Wild Hunt\",\n    \"ano\": \"2015\",\n    \"preco\": \"60.0\",\n    \"genero\": \"RPG\",\n    \"idUsuario\": \"2\"\n}",
+									"raw": "{\n    \"nome\": \"The Witcher 3: Wild Hunt\",\n    \"ano\": \"2015\",\n    \"preco\": \"60.0\",\n    \"genero\": \"RPG\",\n    \"idUsuario\": \"3\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -335,7 +341,13 @@
 					"name": "JogoID",
 					"request": {
 						"method": "DELETE",
-						"header": [],
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjQ2OTMwMDE1LCJleHAiOjE2NDY5MzA2MTV9.5t6kF_GHqKI3u3Wl9Z7A8pyXZkS5QKMMciDauRqhwrw",
+								"type": "text"
+							}
+						],
 						"url": {
 							"raw": "http://localhost:3000/deletarJogo/3",
 							"protocol": "http",
@@ -355,9 +367,15 @@
 					"name": "UsuarioID_1",
 					"request": {
 						"method": "DELETE",
-						"header": [],
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjQ2OTI5NjI2LCJleHAiOjE2NDY5Mjk5MjZ9.hSsWhVvn78mSIo8Ax65PWmSyuvXoLTb0rzVmFPU_T5E",
+								"type": "text"
+							}
+						],
 						"url": {
-							"raw": "http://localhost:3000/deletarUsuario/1",
+							"raw": "http://localhost:3000/deletarUsuario/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -365,7 +383,7 @@
 							"port": "3000",
 							"path": [
 								"deletarUsuario",
-								"1"
+								"2"
 							]
 						}
 					},
@@ -380,9 +398,15 @@
 					"name": "jogoId",
 					"request": {
 						"method": "GET",
-						"header": [],
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjQ2OTI5NjI2LCJleHAiOjE2NDY5Mjk5MjZ9.hSsWhVvn78mSIo8Ax65PWmSyuvXoLTb0rzVmFPU_T5E",
+								"type": "text"
+							}
+						],
 						"url": {
-							"raw": "http://localhost:3000/checarJogo/5",
+							"raw": "http://localhost:3000/checarJogo/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -390,7 +414,7 @@
 							"port": "3000",
 							"path": [
 								"checarJogo",
-								"5"
+								"1"
 							]
 						}
 					},
@@ -400,9 +424,15 @@
 					"name": "usuarioID",
 					"request": {
 						"method": "GET",
-						"header": [],
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY0NjkzMjg4MSwiZXhwIjoxNjQ2OTMzNDgxfQ._7t0YcLtdhH0-zTxX74lu5nQLsF5hmVQbMn0ftWUp4Y",
+								"type": "text"
+							}
+						],
 						"url": {
-							"raw": "http://localhost:3000/checarUsuario/4",
+							"raw": "http://localhost:3000/checarUsuario/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -410,7 +440,7 @@
 							"port": "3000",
 							"path": [
 								"checarUsuario",
-								"4"
+								"2"
 							]
 						}
 					},
@@ -420,9 +450,15 @@
 					"name": "checarUsuarioJogos",
 					"request": {
 						"method": "GET",
-						"header": [],
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY0NjkzMjg4MSwiZXhwIjoxNjQ2OTMzNDgxfQ._7t0YcLtdhH0-zTxX74lu5nQLsF5hmVQbMn0ftWUp4Y",
+								"type": "text"
+							}
+						],
 						"url": {
-							"raw": "http://localhost:3000/checarUsuarioJogos/5",
+							"raw": "http://localhost:3000/checarUsuarioJogos/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -430,7 +466,7 @@
 							"port": "3000",
 							"path": [
 								"checarUsuarioJogos",
-								"5"
+								"2"
 							]
 						}
 					},
@@ -445,10 +481,16 @@
 					"name": "AlterarPrecoId",
 					"request": {
 						"method": "POST",
-						"header": [],
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjQ2OTI5NjI2LCJleHAiOjE2NDY5Mjk5MjZ9.hSsWhVvn78mSIo8Ax65PWmSyuvXoLTb0rzVmFPU_T5E",
+								"type": "text"
+							}
+						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"id\": \"5\",\n    \"valor\": \"10\"\n}",
+							"raw": "{\n    \"id\": \"1\",\n    \"preco\": \"1111\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -473,10 +515,16 @@
 					"name": "AlterarSenhaMara",
 					"request": {
 						"method": "POST",
-						"header": [],
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjQ2OTI5NjI2LCJleHAiOjE2NDY5Mjk5MjZ9.hSsWhVvn78mSIo8Ax65PWmSyuvXoLTb0rzVmFPU_T5E",
+								"type": "text"
+							}
+						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"id\": \"5\",\n    \"senha\": \"senhaMaisForte\"\n}",
+							"raw": "{\n    \"id\": \"1\",\n    \"senha\": \"senhaMaisForte\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -492,6 +540,66 @@
 							"port": "3000",
 							"path": [
 								"alterarSenhaUsuario"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "usuario",
+			"item": [
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"lframos_ferreira@outlook.com\",\n    \"senha\": \"senhaMaisForte\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/usuario/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"usuario",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "logout",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY0NjkzMTU5NywiZXhwIjoxNjQ2OTMyMTk3fQ.PaaxzEalCRmb-qvg_YuXU6HaxYpdfXLiWk5rccXXoBI",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/usuario/logout",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"usuario",
+								"logout"
 							]
 						}
 					},
