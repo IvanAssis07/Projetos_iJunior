@@ -41,22 +41,22 @@ app.get('/admin', (req, res) => res.json(lojaDeJogos));
 
 // Busca os detalhes de um jogo específico a partir de seu nome
 app.get('/admin/:nomeJogo', (req, res) => {
-    const { nomeJogo } = req.params;
-    const jogo = lojaDeJogos[nomeJogo];
+  const { nomeJogo } = req.params;
+  const jogo = lojaDeJogos[nomeJogo];
 
-    if (!jogo) return res.status(400).send('Este jogo não se encontra no banco');
+  if (!jogo) return res.status(400).send('Este jogo não se encontra no banco');
 
-    res.json(jogo);
+  res.json(jogo);
 })
 
 // Adiciona um jogo ao nosso "Banco de Dados"
 app.post('/admin/inserirJogo', (req, res) => {
-    const novojogo = req.body;
-    lojaDeJogos[novojogo.nome] = novojogo;
+  const novojogo = req.body;
+  lojaDeJogos[novojogo.nome] = novojogo;
 
-    if (typeof(lojaDeJogos[novojogo.nome]) !== "object") return res.status(500).send('Falha interna na criação do jogo no banco de dados')
+  if (typeof(lojaDeJogos[novojogo.nome]) !== "object") return res.status(500).send('Falha interna na criação do jogo no banco de dados')
 
-    res.json(lojaDeJogos)
+  res.json(lojaDeJogos)
 })
 
 // Altera o preço de umm jogo em nosso "Banco de Dados" a partir do seu nome
@@ -73,13 +73,13 @@ app.put('/admin/mudarPreco/', (req, res) => {
 
 // Deleta uma jogo do "Banco de Dados" a partir do seu nome
 app.delete('/admin/deletarJogo/:nomeJogo', (req, res) => {
-    const { nomeJogo } = req.params;
+  const { nomeJogo } = req.params;
 
-    if (!lojaDeJogos.nomeJogo) return res.status(400).send('Este jogo não se encontra no banco');
-    
-    delete lojaDeJogos[nomeJogo];
+  if (!lojaDeJogos.nomeJogo) return res.status(400).send('Este jogo não se encontra no banco');
+  
+  delete lojaDeJogos[nomeJogo];
 
-    res.json(lojaDeJogos);
+  res.json(lojaDeJogos);
 })
 
 app.listen(3000, "localhost", function() {

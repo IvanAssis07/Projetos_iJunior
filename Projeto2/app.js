@@ -106,12 +106,12 @@ app.post('/alterarSenhaUsuario', async (req, res, next) => {
 })
 
 app.post('/alterarPrecoJogo', async (req, res, next) => {
-    const { id, valor } = req.body;
+    const { id, preco } = req.body;
     await database.sync();
 
     try{
         const jogo = await Jogo.findByPk(id);
-        jogo.valor = valor;
+        jogo.preco = preco;
     
         const jogoAlterado = await jogo.save();
         res.status(201).send(jogoAlterado);
