@@ -75,7 +75,7 @@ app.put('/admin/mudarPreco/', (req, res) => {
 app.delete('/admin/deletarJogo/:nomeJogo', (req, res) => {
   const { nomeJogo } = req.params;
 
-  if (!lojaDeJogos.nomeJogo) return res.status(400).send('Este jogo não se encontra no banco');
+  if (!lojaDeJogos[nomeJogo]) return res.status(400).send('Este jogo não se encontra no banco');
   
   delete lojaDeJogos[nomeJogo];
 
