@@ -15,7 +15,13 @@
 							"name": "TheLastOfUs2",
 							"request": {
 								"method": "POST",
-								"header": [],
+								"header": [
+									{
+										"key": "x-access-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY0NzU0NTAwMSwiZXhwIjoxNjQ3NTQ1NjAxfQ.xXLcy29Lt5mTLiGJxTJCz1k2tzHyBG2caH5_Iu4awZ0",
+										"type": "text"
+									}
+								],
 								"body": {
 									"mode": "raw",
 									"raw": "{\n    \"nome\": \"The Last of Us Part II\",\n    \"ano\": \"2020\",\n    \"preco\": \"120.0\",\n    \"genero\": \"Ação-Aventura\",\n    \"idUsuario\": \"1\"\n}",
@@ -46,13 +52,13 @@
 								"header": [
 									{
 										"key": "x-access-token",
-										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjQ2OTMwMDE1LCJleHAiOjE2NDY5MzA2MTV9.5t6kF_GHqKI3u3Wl9Z7A8pyXZkS5QKMMciDauRqhwrw",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY0NzU0NTAwMSwiZXhwIjoxNjQ3NTQ1NjAxfQ.xXLcy29Lt5mTLiGJxTJCz1k2tzHyBG2caH5_Iu4awZ0",
 										"type": "text"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"nome\": \"The Witcher 3: Wild Hunt\",\n    \"ano\": \"2015\",\n    \"preco\": \"60.0\",\n    \"genero\": \"RPG\",\n    \"idUsuario\": \"3\"\n}",
+									"raw": "{\n    \"nome\": \"The Witcher 3: Wild Hunt\",\n    \"ano\": \"2015\",\n    \"preco\": \"60.0\",\n    \"genero\": \"RPG\",\n    \"idUsuario\": \"1\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -77,7 +83,13 @@
 							"name": "FIFA22",
 							"request": {
 								"method": "POST",
-								"header": [],
+								"header": [
+									{
+										"key": "x-access-token",
+										"value": "",
+										"type": "text"
+									}
+								],
 								"body": {
 									"mode": "raw",
 									"raw": "{\n    \"nome\": \"FIFA 22\",\n    \"ano\": \"2021\",\n    \"preco\": \"200.0\",\n    \"genero\": \"Esporte\",\n    \"idUsuario\": \"3\"\n}",
@@ -105,7 +117,13 @@
 							"name": "TheEldersScrollsV",
 							"request": {
 								"method": "POST",
-								"header": [],
+								"header": [
+									{
+										"key": "x-access-token",
+										"value": "",
+										"type": "text"
+									}
+								],
 								"body": {
 									"mode": "raw",
 									"raw": "{\n    \"nome\": \"The Elder Scrolls V: Skyrim\",\n    \"ano\": \"2011\",\n    \"preco\": \"60.0\",\n    \"genero\": \"RPG\",\n    \"idUsuario\": \"4\"\n}",
@@ -133,7 +151,13 @@
 							"name": "JustDance2022",
 							"request": {
 								"method": "POST",
-								"header": [],
+								"header": [
+									{
+										"key": "x-access-token",
+										"value": "",
+										"type": "text"
+									}
+								],
 								"body": {
 									"mode": "raw",
 									"raw": "{\n    \"nome\": \"Just Dance 2022\",\n    \"ano\": \"2021\",\n    \"preco\": \"190.0\",\n    \"genero\": \"Música\",\n    \"idUsuario\": \"4\"\n}",
@@ -161,7 +185,13 @@
 							"name": "DonkeyKong",
 							"request": {
 								"method": "POST",
-								"header": [],
+								"header": [
+									{
+										"key": "x-access-token",
+										"value": "",
+										"type": "text"
+									}
+								],
 								"body": {
 									"mode": "raw",
 									"raw": "{\n    \"nome\": \"Donkey Kong\",\n    \"ano\": \"1994\",\n    \"preco\": \"130\",\n    \"genero\": \"Plataforma\",\n    \"idUsuario\": \"5\"\n}",
@@ -194,7 +224,13 @@
 							"name": "LuisFelipe",
 							"request": {
 								"method": "POST",
-								"header": [],
+								"header": [
+									{
+										"key": "x-access-token",
+										"value": "",
+										"type": "text"
+									}
+								],
 								"body": {
 									"mode": "raw",
 									"raw": "{\n    \"nome\": \"Luis Felipe\",\n    \"email\": \"lframos_ferreira@outlook.com\",\n    \"senha\": \"12345\"\n}",
@@ -222,7 +258,13 @@
 							"name": "Ivan",
 							"request": {
 								"method": "POST",
-								"header": [],
+								"header": [
+									{
+										"key": "x-access-token",
+										"value": "",
+										"type": "text"
+									}
+								],
 								"body": {
 									"mode": "raw",
 									"raw": "{\n    \"nome\": \"Ivan\",\n    \"email\": \"ivan@gmail.com\",\n    \"senha\": \"12543\"\n}",
@@ -250,7 +292,13 @@
 							"name": "Gabi",
 							"request": {
 								"method": "POST",
-								"header": [],
+								"header": [
+									{
+										"key": "x-access-token",
+										"value": "",
+										"type": "text"
+									}
+								],
 								"body": {
 									"mode": "raw",
 									"raw": "{\n    \"nome\": \"Gabi\",\n    \"email\": \"gabi@email.com\",\n    \"senha\": \"54321\"\n}",
@@ -278,7 +326,13 @@
 							"name": "Camacho",
 							"request": {
 								"method": "POST",
-								"header": [],
+								"header": [
+									{
+										"key": "x-access-token",
+										"value": "",
+										"type": "text"
+									}
+								],
 								"body": {
 									"mode": "raw",
 									"raw": "{\n    \"nome\": \"Camacho\",\n    \"email\": \"camacho@outlook.com\",\n    \"senha\": \"123456\"\n}",
@@ -306,7 +360,13 @@
 							"name": "Gabi Copy",
 							"request": {
 								"method": "POST",
-								"header": [],
+								"header": [
+									{
+										"key": "x-access-token",
+										"value": "",
+										"type": "text"
+									}
+								],
 								"body": {
 									"mode": "raw",
 									"raw": "{\n    \"nome\": \"Mara\",\n    \"email\": \"mara@orkut.com\",\n    \"senha\": \"senha\"\n}",
@@ -401,7 +461,7 @@
 						"header": [
 							{
 								"key": "x-access-token",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjQ2OTI5NjI2LCJleHAiOjE2NDY5Mjk5MjZ9.hSsWhVvn78mSIo8Ax65PWmSyuvXoLTb0rzVmFPU_T5E",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY0NzU0NTAwMSwiZXhwIjoxNjQ3NTQ1NjAxfQ.xXLcy29Lt5mTLiGJxTJCz1k2tzHyBG2caH5_Iu4awZ0",
 								"type": "text"
 							}
 						],
@@ -518,7 +578,7 @@
 						"header": [
 							{
 								"key": "x-access-token",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjQ2OTI5NjI2LCJleHAiOjE2NDY5Mjk5MjZ9.hSsWhVvn78mSIo8Ax65PWmSyuvXoLTb0rzVmFPU_T5E",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY0NzU0NTAwMSwiZXhwIjoxNjQ3NTQ1NjAxfQ.xXLcy29Lt5mTLiGJxTJCz1k2tzHyBG2caH5_Iu4awZ0",
 								"type": "text"
 							}
 						],
@@ -586,7 +646,7 @@
 						"header": [
 							{
 								"key": "x-access-token",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY0NjkzMTU5NywiZXhwIjoxNjQ2OTMyMTk3fQ.PaaxzEalCRmb-qvg_YuXU6HaxYpdfXLiWk5rccXXoBI",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY0NzU0NTIyOSwiZXhwIjoxNjQ3NTQ1ODI5fQ.JWHIJNDOaeo0OnE4oQZCH3T0ITwDg0AxcndfVLqeF_Q",
 								"type": "text"
 							}
 						],
