@@ -10,6 +10,7 @@ https://kb.datamotion.com/?ht_kb=postman-instructions-for-exporting-and-importin
 
 ## Atenção - Projeto 3 Headers
 
-Para acessar as rotas presentes no projeto 3 (menos a 'inserirUsuario' e a 'usuario/login') é preciso alterar x-access-token presente no header do postman.  
+Para acessar as rotas presentes no projeto 3 (menos a 'inserirUsuario' e a 'usuario/login') é preciso alterar x-access-token presente no header do postman para realizar a autenticação.
+
 Este token é um JWT que é gerado ao realizar o login e que é retornado no body. Logo, você tem que copiar este token que é retornado ao 
-relizar um login nos headers de todas a rotas que for relizar alguma operação, menos as duas citadas anteriormente.
+relizar um login na variável 'x-access-token' presente nos headers das rotas que realizará alguma operação, menos as duas citadas anteriormente.
