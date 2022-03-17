@@ -5,7 +5,7 @@
 Todos os projetos possuem em seus respectivos diretórios arquivos "postman.json". Este arquivo pode ser importado dentro de uma workspace do postman, 
 ele já contém todas as rotas com as chamdas implementadas para serem usadas no teste dos projetos.
 
-Para importar os arquivos no Postman basta seguir o passo a passo do link a baixo:
+Para importar os arquivos no Postman basta seguir o passo a passo do link a seguir:
 https://kb.datamotion.com/?ht_kb=postman-instructions-for-exporting-and-importing
 
 ## Atenção - Projeto 3 Headers
